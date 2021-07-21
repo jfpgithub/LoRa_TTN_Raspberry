@@ -4,7 +4,7 @@ Configure the [Dragino LoRa/GPS Hat](http://wiki.dragino.com/index.php?title=Lor
 
 ## Software
 The following software was used:
-- **LoRa Gateway:** https://github.com/tftelkamp/single_chan_pkt_fwd and sourceclimber's fork of the original.
+- **LoRa Gateway:** https://github.com/tftelkamp/single_chan_pkt_fwd and sourceclimber's fork (https://github.com/sourceclimber/LoRa_TTN_Raspberry) of the original.
 
 ## Configure the Raspberry as LoRa TTN Gateway
 ### Preparation
