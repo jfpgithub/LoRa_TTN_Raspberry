@@ -19,7 +19,7 @@ The following software was used:
 ### Configuration for The Things Network Stack ( TTN V3 )
 - The server address which is used by the gateway software must be changed to one of the TheThingsNetwork Stack V3 servers.
 - Use the nearest TTN V3 server (e.g. 'eu1.cloud.thethings.network'). The IP address can be resolved using the `nslookup` command.<br>
-- Because the original main.cpp file can only handle IP addresses for the server address, an IP address must be obtained.<br> In using `nslookup`, 52.212.223.226 surfaced as a functioning address (July 20th 2021).
+- Because the original main.cpp file seems to handle IP addresses for the server address, an IP address must be obtained.<br> In using `nslookup`, 52.212.223.226 surfaced as a functioning address (July 20th 2021).
 - Edit the *main.cpp* file and insert the IP address of the server 'eu1.cloud.thethings.network' (in line 88, into the define **SERVER1**):<br>
 `#define SERVER1 "52.212.223.226"`
 
