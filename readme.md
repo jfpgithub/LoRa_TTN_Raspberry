@@ -7,7 +7,7 @@ The following software was used:
 - **LoRa Gateway:** https://github.com/tftelkamp/single_chan_pkt_fwd and sourceclimber's fork of the original.
 
 ## Configure the Raspberry as LoRa TTN Gateway
-### Preperation
+### Preparation
 - Use the raspi-config tool (with `sudo raspi-config`) to enable SPI on the Raspberry Pi
 - Install wiringpi (`sudo apt-get install wiringpi`)
 
